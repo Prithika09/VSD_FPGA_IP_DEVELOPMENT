@@ -1,18 +1,9 @@
-Task 1 – RISC-V Environment Setup
-
-In this task, I set up the RISC-V development environment using GitHub Codespaces and verified the setup by compiling and running a reference RISC-V program.
-
-What I did
-
-First, I opened the vsd-riscv2 repository on GitHub and created a Codespace from it.
-Once the Codespace started, I explored the repository and found the RISC-V reference program inside the Samples folder.
-
-I then compiled the sample C program using the RISC-V GNU compiler. After successful compilation, I ran the generated executable using the Spike RISC-V simulator.
-
-The program executed without errors, which confirmed that the environment was set up correctly.
-
-Repository Used
-
-https://github.com/vsdip/vsd-riscv2
+This repository contains my internship task submissions.
 
 
+Task-1: Environment Setup & RISC-V Reference Bring-Up
+
+Task-1 focused on setting up the official GitHub Codespace using the vsd-riscv2 reference repository.
+The RISC-V reference program was successfully built and executed in the Codespace environment, confirming toolchain readiness.
+VSDFPGA labs were cloned and run using simulation/log-based flows without any FPGA hardware.
+No physical FPGA board was used, as Task-1 is limited to environment setup and reference validation only.
